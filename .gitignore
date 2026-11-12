@@ -155,3 +155,6 @@ output/
 GTM-*_workspace*.json
 *.xlsx
 base/
+
+# Config preenchido com IDs do cliente
+cliente.json
