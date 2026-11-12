@@ -1,0 +1,20 @@
+{
+  "name": "gtm-conteiner-generator",
+  "version": "0.2.0",
+  "description": "Generates GTM web and server container JSON from a simple config",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "gtm-gen": "src/cli.js"
+  },
+  "scripts": {
+    "generate": "node src/cli.js",
+    "example": "node src/cli.js examples/config.example.json -o output",
+    "build-template": "node scripts/build-template.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
