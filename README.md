@@ -6,7 +6,8 @@ O JSON gerado é importado em **GTM → Administrador → Importar contêiner**.
 
 ## Uso
 
-1. Copie `examples/config.example.json` e preencha com os dados do cliente:
+1. Rode `npm run gerar` uma vez: ele cria o arquivo `cliente.json` (cópia de
+   `cliente.exemplo.json`). Abra e preencha com os dados do cliente:
 
 | Campo | Planilha ("Ferramentas") | Vira no GTM |
 | --- | --- | --- |
@@ -24,10 +25,11 @@ O JSON gerado é importado em **GTM → Administrador → Importar contêiner**.
 2. Gere o container:
 
 ```bash
-npm run generate -- clientes/meu-cliente.json
+npm run gerar
 ```
 
-Saída: `output/<GTM-ID>_web.json`.
+Saída: `output/<GTM-ID>_web.json`. O `cliente.json` preenchido fica só no seu PC
+(está no `.gitignore`). Para usar outro arquivo: `npm run gerar -- outro-cliente.json`.
 
 ## Modelo (templates/)
 

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { generateWebContainer, validateConfig } from '../src/index.js';
 
-const example = JSON.parse(readFileSync(new URL('../examples/config.example.json', import.meta.url), 'utf8'));
+const example = JSON.parse(readFileSync(new URL('../cliente.exemplo.json', import.meta.url), 'utf8'));
 const withFb = { ...example, pixelFacebookAds: '1234567890' };
 const BUILT_IN = new Set(['2147479553', '2147479573']);
 

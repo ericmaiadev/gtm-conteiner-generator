@@ -8,8 +8,9 @@
     "gtm-gen": "src/cli.js"
   },
   "scripts": {
+    "gerar": "node src/cli.js",
     "generate": "node src/cli.js",
-    "example": "node src/cli.js examples/config.example.json -o output",
+    "example": "node src/cli.js cliente.exemplo.json -o output",
     "build-template": "node scripts/build-template.mjs",
     "test": "node --test"
   },
