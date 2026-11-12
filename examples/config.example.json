@@ -1,0 +1,12 @@
+{
+  "nome": "[WEB] - Nome do Cliente",
+  "tagManagerWeb": "GTM-ABC1234",
+  "tagManagerServer": "GTM-XYZ9876",
+  "googleAnalyticsGA4": "G-ABCDEF1234",
+  "googleAds": "123456789",
+  "googleAdsRotuloLead": "AbCdEfGhIjKlMn",
+  "pixelFacebookAds": "",
+  "tokenFacebookAds": "",
+  "transportUrl": "https://exemplo.sab.stape.io",
+  "dominios": ["cliente.com.br"]
+}

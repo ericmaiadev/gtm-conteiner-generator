@@ -147,3 +147,11 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Generated containers
+output/
+
+# Client reference files (real IDs) - never commit
+GTM-*_workspace*.json
+*.xlsx
+base/
